@@ -1,1 +1,5 @@
 # Lab8-Starter
+
+## Graceful Degradation and Service Workers
+
+Graceful degradation and service workers are closely related in that they both aim to provide a resilient user experience when optimal conditions are not available. Service workers embody the principle of graceful degradation by starting with the assumption that users have full network connectivity (the ideal state) and then gracefully handling scenarios where the network is slow, unreliable, or completely unavailable. When a network request fails or is slow, service workers can fall back to cached versions of resources, ensuring that the application continues to function even in degraded network conditions. This allows web applications to maintain core functionality offline or with poor connectivity, providing users with a progressively enhanced experience that degrades gracefully rather than failing completely when network resources are unavailable.
